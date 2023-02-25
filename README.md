@@ -1,0 +1,1 @@
+# django-jewelry-shop-main
