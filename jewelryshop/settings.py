@@ -75,12 +75,8 @@ WSGI_APPLICATION = 'jewelryshop.wsgi.application'
 
 DATABASES = {
     'default': {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": 'jewelery',
-        "USER": 'postgres',
-        "PASSWORD": 'ShEiNzo@1095',
-        "HOST": 'localhost',
-        "PORT": '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
