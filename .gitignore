@@ -1,9 +1,9 @@
 media
 venv
 *.pyc
-jewelryshop/static/img
-jewelryshop/static/icons
-db.sqlite3
+# jewelryshop/static/img
+# jewelryshop/static/icons
+# db.sqlite3
 *.gif
 README.md
 
@@ -12,7 +12,6 @@ README.md
 *.pot
 *.pyc
 __pycache__
-db.sqlite3
 media
 datadump.json
 # .env

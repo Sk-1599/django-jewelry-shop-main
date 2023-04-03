@@ -1,1 +1,1 @@
-web gunicorn jewelryshop.wsgi:application --log-file -
+web: gunicorn jewelryshop.wsgi:application --log-file -
