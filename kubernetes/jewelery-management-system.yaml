@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jewelery-management-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jewelery-management-system
+  template:
+    metadata:
+      labels: 
+        app: jewelery-management-system
+    spec:
+      containers:
+        - name: jewelery-management-system
+          image: django_projects/jewelery_shop
+          ports:
+            - containerPort: 3000

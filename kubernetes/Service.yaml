@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: jewelery-management-system
+spec:
+  selector:
+    app: jewelery-management-system
+  ports:
+  - name: http
+    port: 80
+    targetPort: 3000
+    nodePort: 30001
+  type: NodePort
